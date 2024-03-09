@@ -1,0 +1,127 @@
+* {
+  margin: 0px;
+  padding: 0px;
+
+  box-sizing: border-box;
+}
+
+body {
+  background: darkgrey;
+
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+header {
+  background: pink;
+  height: 100px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  position: sticky;
+  top: 0;
+}
+
+header .logo {
+  flex: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav {
+  flex: 7;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style-type: none;
+  height: 100%;
+  width: 100%;
+}
+
+nav ul li {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header .social {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  background: blue;
+}
+
+.full_height {
+  border: solid 2px black;
+  height: 100vh;
+}
+
+.baner {
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.opis {
+  background: green;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.opis .zdjecie {
+  flex: 1;
+}
+
+.opis .tekst {
+  flex: 2;
+}
+
+.paralaxa {
+  background: lightcoral;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.panele {
+  background: darkkhaki;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.kontakt {
+  background: lightpink;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.kontakt .mapa {
+  flex: 1;
+}
+
+.kontakt .formularz {
+  flex: 2;
+}
+
+footer {
+  background: yellow;
+}
