@@ -272,8 +272,49 @@ header .socialki a:hover i.fa-square-youtube {
 }
 
 footer {
-  background: #fff;
+  color: #fff;
+  background: black;
   min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.7s;
+}
+
+footer a:hover {
+  color: red;
+}
+
+footer .gorna {
+  display: flex;
+  width: 100%;
+}
+
+footer .kolumna {
+  flex: 1;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+footer .kolumna .wiersz {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+footer .kolumna ul {
+  list-style-type: none;
+}
+
+footer .dolna {
+  padding: 20px;
+  text-align: center;
 }
 
 /*.test{
