@@ -117,7 +117,43 @@ header .socialki a:hover i.fa-square-youtube {
   background-size: cover;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
+  padding-right: 50px;
+}
+
+.kratka {
+  width: 400px;
+  min-height: 400px;
+  border-radius: 20px;
+
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 20px;
+
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  text-align: center;
+}
+
+.kratka h1 {
+  font-weight: 200;
+}
+
+.kratka a {
+  color: white;
+  text-decoration: none;
+  border: 1px solid white;
+  padding: 8px 20px;
+  border-radius: 20px;
+  transition: 0.7s;
+}
+
+.kratka a:hover {
+  color: black;
+  background-color: white;
 }
 
 .opis {
