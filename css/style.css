@@ -178,10 +178,14 @@ header .socialki a:hover i.fa-square-youtube {
 }
 
 .paralaxa {
-  background: #c00;
+  background: url(../img/bg2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
+  padding-left: 50px;
 }
 
 .panele {
