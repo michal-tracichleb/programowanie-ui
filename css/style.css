@@ -190,6 +190,25 @@ header .socialki a:hover i.fa-square-youtube {
   align-items: center;
   justify-content: center;
   flex: 2;
+  flex-direction: column;
+  gap: 30px;
+  font-size: 6rem;
+  font-weight: 900;
+  color: #bbb;
+}
+
+.p1 {
+  text-shadow: 2px 0 2px red, -2px 0 2px red, 0 2px 2px red, 0 -2px 2px red;
+}
+
+.p2 {
+  text-shadow: 2px 0 2px red, -2px 0 2px red, 0 2px 2px red, 0 -2px 2px red,
+    2px 2px 2px red, -2px 2px 2px red, 2px -2px 2px red, -2px -2px 2px red;
+}
+
+.p3 {
+  -webkit-text-fill-color: #bbb;
+  -webkit-text-stroke: 2px red;
 }
 
 .paralaxa {
