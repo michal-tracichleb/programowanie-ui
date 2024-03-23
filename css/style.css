@@ -113,6 +113,8 @@ header .socialki a:hover i.fa-square-youtube {
 .baner {
   background: url(../img/bg1.jpg);
   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   align-items: center;
   justify-content: center;
