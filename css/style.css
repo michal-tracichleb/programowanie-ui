@@ -109,74 +109,88 @@ header .socialki a:hover i.fa-square-youtube {
 .content {
   background: #fff;
 }
+
 .baner {
-  background: #ccc;
+  background: url(../img/bg1.jpg);
+  background-position: center;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 .opis {
   background: #af0;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 .opis .zdjecie {
   display: flex;
   align-items: center;
   justify-content: center;
   flex: 1;
 }
+
 .opis .tekst {
   display: flex;
   align-items: center;
   justify-content: center;
   flex: 2;
 }
+
 .paralaxa {
   background: #c00;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 .panele {
   background: #00a;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 .panele .panel {
   display: flex;
   align-items: center;
   justify-content: center;
   flex: 1;
 }
+
 .kontakt {
   background: #faf;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 .kontakt .mapa {
   display: flex;
   align-items: center;
   justify-content: center;
   flex: 1;
 }
+
 .kontakt .formularz {
   display: flex;
   align-items: center;
   justify-content: center;
   flex: 2;
 }
+
 .fullheight {
   min-height: calc(100vh - 100px);
   scroll-margin-top: 100px;
 }
+
 footer {
   background: #fff;
   min-height: 300px;
 }
+
 /*.test{
     width:300px;
     height:200px;
