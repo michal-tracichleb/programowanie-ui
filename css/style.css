@@ -278,6 +278,63 @@ header .socialki a:hover i.fa-square-youtube {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
+.panele .paski {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(
+    45deg,
+    #63f 25%,
+    #444 25%,
+    #444 50%,
+    #63f 50%,
+    #63f 75%,
+    #444 75%,
+    #444 100%
+  );
+  background-size: 40px 40px;
+  animation: animateBg 0.5s linear infinite;
+  animation-play-state: paused;
+  filter: grayscale(1);
+}
+
+@keyframes animateBg {
+  0% {
+    background-position: 0;
+  }
+  100% {
+    background-position: 40px;
+  }
+}
+
+.panele .paski:nth-child(2) {
+  background: linear-gradient(
+    -45deg,
+    #faf 25%,
+    #444 25%,
+    #444 50%,
+    #faf 50%,
+    #faf 75%,
+    #444 75%,
+    #444 100%
+  );
+  background-size: 40px 40px;
+}
+
+.panele .paski:hover {
+  animation-play-state: running;
+  filter: grayscale(0);
+}
+
+.panele .paski img {
+  position: absolute;
+  bottom: 0;
+  height: 90%;
+}
+
+.panele .paski p {
+}
+
 .kontakt {
   background: #faf;
   display: flex;
