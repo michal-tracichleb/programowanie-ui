@@ -223,10 +223,48 @@ header .socialki a:hover i.fa-square-youtube {
 }
 
 .panele {
-  background: #00a;
+  background: grey;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 20px;
+  padding: 30px;
+}
+
+.panele .tytul {
+  text-align: center;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.panele .tytul::before {
+  content: "";
+  height: 4px;
+  width: 20px;
+  background: blue;
+  margin-right: 5px;
+}
+
+.panele .tytul::after {
+  content: "";
+  height: 4px;
+  width: 20px;
+  background: #000;
+  margin-left: 5px;
+}
+
+.panele .tytul span {
+  color: blue;
+}
+
+.panele .wiersz {
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 100%;
+  gap: 10px;
 }
 
 .panele .panel {
@@ -234,6 +272,10 @@ header .socialki a:hover i.fa-square-youtube {
   align-items: center;
   justify-content: center;
   flex: 1;
+  background: white;
+  width: 250px;
+  height: 350px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .kontakt {
